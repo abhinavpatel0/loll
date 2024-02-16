@@ -1,0 +1,16 @@
+{
+  "lang": "Langage",
+  "showmenu": "Montrer le menu",
+  "scrollcomment": "Faire défiler pour commenter",
+  "scrolltop": "Revenir en haut de page",
+  "darkmode": "Basculer vers le mode sombre",
+  "content": "Contenu",
+  "kbarplaceholder": "Taper une commande ou chercher",
+  "loading": "Chargement...",
+  "noresults": "Aucun résultat pour la recherche...",
+  "share": "Partager:",
+  "facebookshare": "bouton de partage facebook",
+  "twittershare": "bouton de partage twitter",
+  "linkedinshare": "bouton de partage linkedin",
+  "pinterestshare": "bouton de partage pinterest"
+}

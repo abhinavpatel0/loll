@@ -1,0 +1,9 @@
+.build
+.next
+.contentlayer
+node_modules
+yarn-error.log
+# next.js environment variables
+.env.development
+.env.production
+.next/cache/webpack/server-production/

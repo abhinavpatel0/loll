@@ -1,0 +1,16 @@
+{
+  "lang": "Language",
+  "showmenu": "Show menu",
+  "scrollcomment": "Scroll to comment",
+  "scrolltop": "Scroll to top",
+  "darkmode": "Toggle dark mode",
+  "content": "Content",
+  "kbarplaceholder": "Type a command or search",
+  "loading": "Loading...",
+  "noresults": "No results for your search...",
+  "share": "Share:",
+  "facebookshare": "facebook share button",
+  "twittershare": "twitter share button",
+  "linkedinshare": "linkedin share button",
+  "pinterestshare": "pinterest share button"
+}

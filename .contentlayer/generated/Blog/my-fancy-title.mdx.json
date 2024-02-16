@@ -1,0 +1,44 @@
+{
+  "title": "My fancy title",
+  "date": "2021-01-31T00:00:00.000Z",
+  "language": "en",
+  "localeid": "myfancytitle",
+  "image": "/images/placeholder.jpg",
+  "categories": [
+    "Application",
+    "Data"
+  ],
+  "tags": [
+    "hello"
+  ],
+  "draft": true,
+  "summary": "draft post",
+  "body": {
+    "raw": "\nDraft post which should not display\n",
+    "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var h=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of u(e))!g.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(c=d(e,a))||c.enumerable});return t};var y=(t,e,n)=>(n=t!=null?m(f(t)):{},s(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),j=t=>s(o({},\"__esModule\",{value:!0}),t);var l=h((C,i)=>{i.exports=_jsx_runtime});var b={};x(b,{default:()=>M,frontmatter:()=>_});var r=y(l()),_={title:\"My fancy title\",date:\"2021-01-31\",language:\"en\",localeid:\"myfancytitle\",categories:[\"Application\",\"Data\"],tags:[\"hello\"],image:\"/images/placeholder.jpg\",draft:!0,summary:\"draft post\"};function p(t){let e=Object.assign({p:\"p\"},t.components);return(0,r.jsx)(e.p,{children:\"Draft post which should not display\"})}function D(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,Object.assign({},t,{children:(0,r.jsx)(p,t)})):p(t)}var M=D;return j(b);})();\n;return Component;"
+  },
+  "_id": "my-fancy-title.mdx",
+  "_raw": {
+    "sourceFilePath": "my-fancy-title.mdx",
+    "sourceFileName": "my-fancy-title.mdx",
+    "sourceFileDir": ".",
+    "contentType": "mdx",
+    "flattenedPath": "my-fancy-title"
+  },
+  "type": "Blog",
+  "readingTime": "1 Minute",
+  "slug": "my-fancy-title",
+  "path": "my-fancy-title",
+  "filePath": "my-fancy-title.mdx",
+  "toc": [],
+  "structuredData": {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "My fancy title",
+    "datePublished": "2021-01-31T00:00:00.000Z",
+    "dateModified": "2021-01-31T00:00:00.000Z",
+    "description": "draft post",
+    "image": "/",
+    "url": "https://pablo-pikassiet-next-starter-i18n.vercel.app/my-fancy-title"
+  }
+}
