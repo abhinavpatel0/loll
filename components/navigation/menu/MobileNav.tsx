@@ -69,7 +69,7 @@ const MobileNav = () => {
         ></button>
         <nav className="fixed left-1/2 top-0 -translate-x-1/2 transform  px-6">
           <div className="mt-0 flex items-center justify-center">
-            <Logo className="mb-4 h-12 " />
+            <Logo />
           </div>
 
           <ul
