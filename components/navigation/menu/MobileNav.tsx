@@ -69,13 +69,14 @@ const MobileNav = () => {
         ></button>
         <nav className="fixed left-1/2 top-0 -translate-x-1/2 transform  px-6">
           <div className="mt-0 flex items-center justify-center">
-            <Logo />
+            <Logo  />
           </div>
 
           <ul
             className="flex flex-col items-center  justify-center space-y-4"
             style={{ height: 'calc(100% - 6rem)' }}
           >
+              <ThemeSwitcher className={''} />++++
             <Link
               href="/"
               className="link mt-12 rounded-md bg-white px-4 py-2 text-center text-2xl font-medium text-gray-900 shadow-md transition-colors duration-300 hover:text-blue-500 dark:bg-gray-800 dark:text-white"
@@ -116,7 +117,7 @@ const MobileNav = () => {
                 </div>
               )}
             </li>
-            <ThemeSwitcher className={''} />
+          
           </ul>
         </nav>
       </div>
