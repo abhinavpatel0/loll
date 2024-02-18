@@ -20,12 +20,12 @@ const PageHeader = ({ title }: PageHeaderProps) => {
       initial="hidden"
       animate="enter"
       transition={{ type: 'linear' }}
-      className="mt-20"
+      className="mt-2 "
     >
-      <div className="container text-center">
-        <div className="rounded-2xl bg-gradient-to-b from-body to-theme-light px-8 py-14 dark:from-darkmode-body dark:to-darkmode-theme-light">
+      <div className=" text-center">
+        <div className="rounded-2xl bg-gradient-to-b from-body to-theme-light px-8 py-0 dark:from-darkmode-body dark:to-darkmode-theme-light">
           <h1 className="text-highlighted dark:text-darkmode-highlighted">{humanize(title)}</h1>
-          <Breadcrumbs className="mt-6 hidden md:block" />
+          <Breadcrumbs className="mt-6 mb-2 hidden md:block" />
         </div>
       </div>
     </motion.section>
