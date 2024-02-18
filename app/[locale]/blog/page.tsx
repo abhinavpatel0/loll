@@ -43,7 +43,7 @@ const Posts = ({ params: { locale } }: PageProps) => {
               <BlogPostsSection
                 currentPosts={currentPosts}
                 ulclassName="row"
-                liclassName="mb-14 md:col-6"
+                liclassName="mb-4 md:col-6"
               />
               <Pagination
                 params={{ locale: locale }}
