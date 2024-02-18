@@ -9,7 +9,7 @@
     "build": "next build && node scripts/*.mjs",
     "preview": "next start",
     "analyze": "cross-env ANALYZE=true next build",
-    "lint": "next lint",
+    "lint": "next lint --quiet",
     "format": "prettier -w ./app ./components ./hooks ./lib ./scripts ./types",
     "windows": "node ./scripts/postContentLayer.mjs",
     "music": "node ./scripts/musicData.mjs"
