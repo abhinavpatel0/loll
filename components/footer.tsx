@@ -14,14 +14,14 @@ const Footer = () => {
           </p>
         </div>
         <nav className="flex flex-col items-center justify-center space-y-2 gap-4 lg:space-y-0 lg:flex-row lg:justify-center lg:items-start">
-          <Link href="/blog">
-            <a className="text-lg font-bold hover:text-gray-600 transition-colors">Echoes</a>
+          <Link href="/blog" className="text-lg font-bold hover:text-gray-600 transition-colors">
+          Echoes
           </Link>
-          <Link href="/contact">
-            <a className="text-lg font-bold hover:text-gray-600 transition-colors">Contact</a>
+          <Link href="/contact" className="text-lg font-bold hover:text-gray-600 transition-colors">
+           Contact
           </Link>
-          <Link href="/about">
-            <a className="text-lg font-bold hover:text-gray-600 transition-colors">About</a>
+          <Link href="/about"className="text-lg font-bold hover:text-gray-600 transition-colors">
+          About
           </Link>
        </nav>
        <div className="mt-8 lg:mt-0 text-center ">
