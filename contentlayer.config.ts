@@ -3,6 +3,8 @@ import { writeFileSync } from 'fs'
 import readingTime from './lib/utils/readingTime'
 import { slug } from 'github-slugger'
 import path from 'path'
+import { Pluggable } from 'unified';
+
 // Remark packages
 import remarkGfm from 'remark-gfm'
 import remarkMath from 'remark-math'
@@ -197,11 +199,11 @@ export default makeSource({
     rehypePlugins: [
       rehypeSlug,
       rehypeAutolinkHeadings,
-      rehypeKatex,
-      [rehypeCitation, { path: path.join(root, 'content', 'blog') }],
+      rehypeKatex as Pluggable<any[]>,
       [rehypePrismPlus, { defaultLanguage: 'js', ignoreMissing: true }],
-      rehypePresetMinify,
+      rehypePresetMinify as Pluggable<any[]>,
     ],
+    
   },
   onSuccess: async (importData) => {
     const { allBlogs } = await importData()
