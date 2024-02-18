@@ -6,7 +6,7 @@ import styles from './menu.module.css'
 import 'react-accessible-accordion/dist/fancy-example.css'
 
 import Logo from '@/components/blog/Logo'
-
+import MobileNav from './MobileNav'
 // utility and hooks
 import Link from 'next/link'
 import { useState, useRef } from 'react'
@@ -114,9 +114,11 @@ export const Header = () => {
               )}
             </div>
             <ThemeSwitcher className="hover" />
+          
             <div className="pl-12"></div>
           </div>
         </div>
+        <MobileNav/>
       </header>
     </>
   )

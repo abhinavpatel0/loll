@@ -5,7 +5,7 @@ import { Check } from '@/components/navigation/icons'
 import { genPageMetadata } from './seo'
 import { getListPage } from '@/lib/contentParser'
 import { markdownify } from '@/lib/utils/textConverter'
-
+import FAQ from '@/components/faq'
 import siteMetadata from '@/config/siteMetadata'
 import ImageFallback from '@/components/helpers/ImageFallback'
 import NewsletterForm from '@/components/blog/NewsletterForm'
@@ -39,18 +39,11 @@ const Home = ({ params: { locale } }: HomeProps) => {
 
   return (
     <>
-      <section className="section mt-20 pt-14">
-        <div className="container">
-          <div className="row justify-center">
-            <div className="mb-16 text-center lg:col-7">
+    
          
-           <h3>h  </h3>
+        <FAQ/>
               
-            </div>
-           
-          </div>
-        </div>
-      </section>
+        
 
     </>
   )

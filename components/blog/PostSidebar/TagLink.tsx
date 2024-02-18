@@ -25,8 +25,8 @@ export const TagLink = ({
           <Link
             className={`${
               pathname.includes(tag) ? 'text-highlighted dark:text-darkmode-highlighted' : ''
-            } m-1 block rounded bg-white px-3 py-1 hover:bg-highlighted hover:text-white dark:bg-darkmode-body dark:hover:bg-darkmode-highlighted dark:hover:text-white`}
-            href={`/${locale}/tags/${tag}`}
+  } m-1 block inline-flex items-center rounded-full border border-gray-400 bg-gray-100 px-3 py-1 text-sm font-medium text-gray-700 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700`}
+  href={`/${locale}/tags/${tag}`}
           >
             {`${humanize(tag)} (${tagCounts[tag]})`}
           </Link>

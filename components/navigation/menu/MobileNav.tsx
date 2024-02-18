@@ -3,7 +3,8 @@ import { HomeIcon, ShopIcon, PaletteIcon, MusicIcon, BlogIcon, MailIcon } from '
 import { useState } from 'react'
 import ThemeSwitcher from '../theme'
 import { headerBlogLinks, dropdownlinks } from '@/config/headerLinks'
-import Logo from '@/data/logo.svg'
+
+import Logo from '@/components/blog/Logo'
 import Link from 'next/link'
 
 const MobileNav = () => {
