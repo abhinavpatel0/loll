@@ -71,7 +71,7 @@ export const Header = () => {
 
   return (
     <>
-      <header className="blur-10 sticky top-0 z-[110] flex items-center justify-between border-b border-gray-200 bg-opacity-30 px-4 py-0 backdrop-blur-lg backdrop-filter dark:border-gray-700 sm:py-2 md:py-2">
+      <header className="blur-10 top-0 z-[110] flex items-center justify-between border-b border-gray-200 bg-opacity-30 px-4 py-0 backdrop-blur-lg backdrop-filter dark:border-gray-700 sm:py-2 md:py-2">
         <div>
           <div className="sticky flex items-center justify-between">
             <div className="ml-3" style={{ color: '#00FF00' }}>

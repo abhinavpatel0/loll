@@ -62,7 +62,7 @@ const tags = async ({ params: { locale, page } }: PageProps) => {
        <ScrollTopAndComment scrollToComment={false} />
       <PageHeader title={t('Tags')} />
       <div className="mb-20  flex flex-col justify-center md:flex-row">
-        <div className="sticky top-0 ">
+        <div className="top-0 ">
           <div className="rounded bg-theme-light p-6 dark:bg-darkmode-theme-light">
             <h3 className="mb-4 text-highlighted dark:text-darkmode-highlighted">
               {t('allposts')}
