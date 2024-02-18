@@ -6,7 +6,7 @@ import FAQ from '@/components/faq'
 import siteMetadata from '@/config/siteMetadata'
 import ImageFallback from '@/components/helpers/ImageFallback'
 import NewsletterForm from '@/components/blog/NewsletterForm'
-
+import footer from '@/components/my-logo.svg'
 import { LocaleTypes } from './i18n/settings'
 import { createTranslation } from './i18n/server'
 import { allBlogs } from 'contentlayer/generated'

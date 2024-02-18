@@ -5,12 +5,13 @@ import siteMetadata from '@/config/siteMetadata'
 import { maintitle, maindescription } from '@/config/localeMetadata'
 import '@/styles/global.css'
 import TwSizeIndicator from '@/components/helpers/TwSizeIndicator'
-import Footer from '@/components/navigation/footer/Footer'
+
 import { Header } from '@/components/navigation/menu'
 import { SearchProvider } from '@/components/navigation/search/SearchProvider'
 import Providers from '@/components/partials/Providers'
 import { dir } from 'i18next'
 import { LocaleTypes, locales } from './i18n/settings'
+import Footer from '@/components/footer'
 
 type PageProps = {
   children: React.ReactNode
