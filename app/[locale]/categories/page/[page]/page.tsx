@@ -62,28 +62,28 @@ const Categories = async ({ params: { locale, page } }: PageProps) => {
     <>
       <ScrollTopAndComment scrollToComment={false} />
       <PageHeader title={t('categories')} />
-      <div className="mb-20 flex flex-col justify-center md:flex-row">
-        <div className="mt-20">
-          <div className="rounded bg-theme-light p-8 dark:bg-darkmode-theme-light">
+      <div className="mb-20  flex flex-col justify-center md:flex-row">
+        <div className="sticky top-0 ">
+          <div className="rounded bg-theme-light p-6 dark:bg-darkmode-theme-light">
             <h3 className="mb-4 text-highlighted dark:text-darkmode-highlighted">
               {t('allposts')}
             </h3>
             <CategoryLink
-              ulclassName="ml-2 space-y-4"
+              ulclassName="ml-1 space-y-4"
               liclassName="inline-block md:flex md:flex-col"
             />
           </div>
         </div>
-        <div className="section-sm pb-0">
-          <BlogPostsSection
-            currentPosts={currentPosts}
-            ulclassName="container max-w-[600px]"
-            liclassName="mb-14"
-          />
+        <div className="lg:col-8">
+              <BlogPostsSection
+                currentPosts={currentPosts}
+                ulclassName="row"
+                liclassName="mb-14 md:col-6"
+              />
           <Pagination
             params={{ locale: locale }}
             section="categories"
-            currentPage={currentPage}
+            currentPage={1}
             totalPages={totalPages}
           />
         </div>
